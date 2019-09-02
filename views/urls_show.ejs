@@ -10,8 +10,8 @@
 </head>
 <body style="font-size:20px; padding:50px;">
   <ul>
-      <% for (let url in urls) { %>
-          <li> <a href="#"><%= url%></a href="#"> : <%= urls[url] %></li>
+      <% if (shortURL) { %>
+          <li> <a href="longURL"><%= longURL%></a href="#"></li>
       <% }; %>
   </ul>
 </body>
