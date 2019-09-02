@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/raz346/tinyUrl/issues"
   },
-  "homepage": "https://github.com/raz346/tinyUrl#readme"
+  "homepage": "https://github.com/raz346/tinyUrl#readme",
+  "dependencies": {
+    "experss": "0.0.1-security"
+  }
 }
