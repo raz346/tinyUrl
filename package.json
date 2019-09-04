@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/raz346/tinyUrl#readme",
   "dependencies": {
+    "ejs": "^2.7.1",
+    "ejs-lint": "^0.3.0",
     "experss": "0.0.1-security",
     "express": "^4.17.1"
   }

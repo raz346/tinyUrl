@@ -9,9 +9,10 @@
   <title>TinyApp</title>
 </head>
 <body style="font-size:20px; padding:50px;">
+  <%include ./partials/_header %>
   <ul>
       <% if (shortURL) { %>
-          <li> <a href="longURL"><%= longURL%></a href="#"></li>
+          <li> TinyURL for <a href="longURL"><%= longURL%></a href="#"></li>
       <% }; %>
   </ul>
 </body>
